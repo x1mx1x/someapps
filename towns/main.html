@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TownsGame</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<h1 class="header">Towns game</h1>
+<div class="computer">
+	<p class="player_name">Player 1</p>
+	<div id = "rules">
+	<p class="label2">You are playing "Towns" game.</br>The rules are simple - every next player has to call the name of a town. There is one "but": your town must start with the last character of your opponent's town name.</br>If you want to start - click the "Start" button.</p>
+	<button class="button" onclick="start()">Start</button>
+	</div>
+	<p id="response1" class="label3"></p>
+	<p id="response2" class="label3"></p>
+</div>
+<div class="player">
+	<p id="name" class="player_name"></p>
+	<p class="label">Input name of town: </p>
+	<input type="text" class="input" id="txt">
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
